@@ -47,5 +47,14 @@ fun TampilanAwal(modifier: Modifier){
             )
 
           }
+        Text(
+            text = stringResource(id = R.string.copy),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 20.dp),
+            fontWeight = FontWeight.Bold,
+            fontSize = 12.sp,
+            color = colorResource(id = R.color.white)
+        )
      }
 }

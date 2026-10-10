@@ -100,6 +100,14 @@ fun ProfilTemplateCard(
                 Column(
                     modifier = Modifier.weight(1f)
                 ) {
+                    Text(
+                        text = nama,
+                        fontSize = 18.sp,
+                        fontFamily = FontFamily.Default,
+                        fontWeight = FontWeight.Bold,
+                        color = colorResource(id = R.color.white)
+                    )
+
 
                 }
 

@@ -58,3 +58,8 @@ fun TampilanAwal(modifier: Modifier){
         )
      }
 }
+
+@Composable
+fun ProfilTemplateCard(modifier: Modifier){
+
+}

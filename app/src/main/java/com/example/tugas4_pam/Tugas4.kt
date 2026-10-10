@@ -115,7 +115,11 @@ fun ProfilTemplateCard(
                         color = Color.Cyan
                     )
 
-
+                    Text(
+                        text = alamat,
+                        fontSize = 12.sp,
+                        color = colorResource(id = R.color.white)
+                    )
                 }
 
              }

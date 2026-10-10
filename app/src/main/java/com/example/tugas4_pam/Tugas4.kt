@@ -108,6 +108,13 @@ fun ProfilTemplateCard(
                         color = colorResource(id = R.color.white)
                     )
 
+                    Text(
+                        text = nim,
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.Cyan
+                    )
+
 
                 }
 

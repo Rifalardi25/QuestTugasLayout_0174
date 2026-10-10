@@ -39,6 +39,12 @@ fun TampilanAwal(modifier: Modifier){
                 fontWeight = FontWeight.Bold,
                 color = colorResource(id = R.color.white)
             )
+            Text(
+                text = stringResource(id = R.string.univ),
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = colorResource(id = R.color.white)
+            )
 
           }
      }

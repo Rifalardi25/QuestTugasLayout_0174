@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -55,7 +56,37 @@ fun TampilanAwal(modifier: Modifier){
                 color = colorResource(id = R.color.white)
             )
 
+            Spacer(modifier = Modifier.height(20.dp))
+
+            ProfilTemplateCard(
+                nama = stringResource(id = R.string.namake1),
+                alamat = stringResource(id = R.string.alamatke1),
+                nim = stringResource(id = R.string.nimke1),
+                bgCard = colorResource(id = R.color.lightgreen)
+            )
+
+            ProfilTemplateCard(
+                nama = stringResource(id = R.string.namake2),
+                alamat = stringResource(id = R.string.alamatke2),
+                nim = stringResource(id = R.string.nimke2),
+                bgCard = colorResource(id = R.color.green)
+            )
+
+            ProfilTemplateCard(
+                nama = stringResource(id = R.string.namake3),
+                alamat = stringResource(id = R.string.alamatke3),
+                nim = stringResource(id = R.string.nimke3),
+                bgCard = colorResource(id = R.color.yellow)
+            )
+
+            ProfilTemplateCard(
+                nama = stringResource(id = R.string.namake4),
+                alamat = stringResource(id = R.string.alamatke4),
+                nim = stringResource(id = R.string.nimke4),
+                bgCard = colorResource(id = R.color.red)
+            )
           }
+
         Text(
             text = stringResource(id = R.string.copy),
             modifier = Modifier
@@ -70,7 +101,7 @@ fun TampilanAwal(modifier: Modifier){
 
 @Composable
 fun ProfilTemplateCard(
-    modifier: Modifier,
+    modifier: Modifier = Modifier,
     nama : String,
     alamat : String,
     nim : String,
